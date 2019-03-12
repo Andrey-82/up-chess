@@ -6,6 +6,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 //  disable: process.env.NODE_ENV === "development"
 //});
 module.exports = {
+//  entry: { main: './src/index.js' },
   entry: { main: './src/index.js' },
   output: {
     path: path.resolve(__dirname, 'dist'),
